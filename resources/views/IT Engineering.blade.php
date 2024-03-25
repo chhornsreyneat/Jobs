@@ -13,8 +13,8 @@
 <header>
     <nav class=" border-gray-200 py-2.5 bg-[#1D5D9B] fixed left-0 right-0 z-10 top-0 font-NotoSerifKhmer">
         <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
-                <img src="{{asset('asset/logo.png')}}" class="h-6 mr-3 sm:h-9" alt=" Logo">
-                <span class="self-center text-xl font-semibold whitespace-nowrap text-white">CareerQuest</span>
+            <img src="{{asset('asset/logo.png')}}" class="h-6 mr-3 sm:h-9" alt=" Logo">
+            <span class="self-center text-xl font-semibold whitespace-nowrap text-white">CareerQuest</span>
             <div class="flex items-center lg:order-2">
                 <div class="hidden mt-2 mr-4 sm:inline-block">
                     <span></span>
@@ -62,64 +62,6 @@
         </div>
     </nav>
 </header>
-{{--jobs listing--}}
-
-<main class="mt-20 md:mt-top-content mb-top-title p-3">
-    <section class="mx-auto  max-w-screen-xl">
-                <h2 class="text-left  text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-                    Jobs Listing
-                </h2>
-            <div class="bg-[#BCE1FB] px-10 py-10 mt-10 rounded-xl ">
-                <div class="mx-auto max-w-6xl ">
-                    <ul class="mt-1 grid grid-cols-1 gap-6 text-center text-slate-700 md:grid-cols-3">
-                        <li class="rounded-xl bg-white px-6 py-8 shadow-sm max-h-40">
-                           <a href="">
-                               <img src="https://www.svgrepo.com/show/530438/ddos-protection.svg" alt="" class="mx-auto h-10 w-10">
-                               <h3 class="my-3 font-display font-medium">Entry level</h3>
-                           </a>
-
-                        </li>
-                        <li class="rounded-xl bg-white px-6 py-8 shadow-sm max-h-40">
-                           <a href="#">
-                               <img src="https://www.svgrepo.com/show/530438/ddos-protection.svg" alt="" class="mx-auto h-10 w-10">
-                               <h3 class="my-3 font-display font-medium"> Junior level</h3>
-                           </a>
-
-                        </li>
-                        <li class="rounded-xl bg-white px-6 py-8 shadow-sm max-h-40">
-                            <a>
-                                <img src="https://www.svgrepo.com/show/530438/ddos-protection.svg" alt="" class="mx-auto h-10 w-10">
-                                <h3 class="my-3 font-display font-medium">Senior level</h3>
-                            </a>
-
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-    </section>
-</main>
-{{--category job--}}
-<section class="mt-10 mx-auto w-full max-w-screen-xl grid grid-cols-1 gap-6  text-slate-700 md:grid-cols-3">
-    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <a href="#">
-            <img class="rounded-lg" src="https://refile.tnaot.com/image/2019/03/14/040d538a9e4f493daed216808d7fcd37.jpg?x-oss-process=image/watermark,image_RS5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yMA" alt="ស្ថាបនា">
-        </a>
-        <div class="p-10">
-                <h5 class="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">IT Engineering</h5>
-            <div class="mb-3 font-normal text-gray-700 dark:text-gray-400">$500</div>
-            <div class="mb-3 font-normal text-gray-700 dark:text-gray-400">Full time</div>
-            <div class="mb-3 font-normal text-gray-700 dark:text-gray-400">Phnom Penh</div>
-            <div class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg  focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                Testing
-            </div>
-            <div class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg  focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                Network
-            </div>
-        </div>
-    </div>
-
-</section>
 {{--Footer --}}
 <footer>
     <div class="bg-[#1D5D9B] mt-10 mx-auto  max-w-screen-xl rounded-xl">
@@ -249,4 +191,6 @@
     </div>
 </footer>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+<script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
 </html>
