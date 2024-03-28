@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    @vite('resources/css/app.css')
+    <?php echo app('Illuminate\Foundation\Vite')('resources/css/app.css'); ?>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -14,7 +14,7 @@
 <head>
     <nav class=" border-gray-200 py-2.5 bg-[#1D5D9B] fixed left-0 right-0 z-10 top-0 font-NotoSerifKhmer">
         <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
-            <img src="{{asset('asset/logo.png')}}" class="h-6 mr-3 sm:h-9" alt=" Logo">
+            <img src="<?php echo e(asset('asset/logo.png')); ?>" class="h-6 mr-3 sm:h-9" alt=" Logo">
             <span class="self-center text-xl font-semibold whitespace-nowrap text-white">CareerQuest</span>
             <div class="flex items-center lg:order-2">
                 <div class="hidden mt-2 mr-4 sm:inline-block"></div>
@@ -48,7 +48,7 @@
         </div>
     </nav>
 </head>
-{{--list jobs--}}
+
 <main class="mt-20 md:mt-top-content mb-top-title p-3">
     <section class="mx-auto  max-w-screen-xl">
         <ul class="flex flex-col font-medium lg:flex-row lg:space-x-2 ">
@@ -62,7 +62,7 @@
                 <a href="#" class="text-blue-500 lg:hover:text-purple-700 ">/ IT Engineering</a>
             </li>
         </ul>
-{{--        card job --}}
+
         <div>
             <div class="flex flex-col w-full items-center bg-[#BCE1FB] px-10 py-100 mt-10 border  rounded-lg shadow md:flex-row md:max-w-l  ">
                 <div class="w-full h-auto max-w-xl rounded-lg">
@@ -177,3 +177,4 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
 
 </html>
+<?php /**PATH C:\Jobs\resources\views/IT Engineering.blade.php ENDPATH**/ ?>
